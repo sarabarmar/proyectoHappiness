@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5% 5%;
+    background-color: #F5CB00;
+}
+
+.nav-logo img {
+    width: 200%;
+}
+
+.nav-enlaces a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.seccion-1 {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    padding: 0 6.5%;
+    height: 89vh;
+}
+
+.seccion-1-imagen img {
+    width: 150%;
+}
+
+.seccion-1-texto {
+    max-width: 600px;
+}
+
+.seccion-1-titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 80%;
+    font-size: 8rem;
+}
+
+.seccion-1-parrafo {
+    font-size: 1.3rem;
+    margin: 5% 0;
+}
+
+.seccion-1-boton {
+    border: none;
+    background: #F5CB00;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 2% 7%;
+}
+
+.seccion-2 {
+    height: 60vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #FFFF 50%, #F5CB00 50%);
+}
+
+.seccion-2-tarjeta {
+    display: flex;
+    align-items: center;
+    background-color: #E6E6E6;
+    height: 90%;
+    width: 80%;
+    justify-content: space-between;
+    padding: 0 5% 0 5%;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+.seccion-2-texto {
+    max-width: 350px;
+}
+
+.seccion-2-titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    color: #F5CB00;
+    font-size: 5.5rem;
+    line-height: 90%;
+}
+
+.seccion-2-parrafo {
+    font-size: 1.3rem;
+    margin: 3% 0;
+}
+
+.seccion-2-boton {
+    background: transparent;
+    border: none;
+    padding: 0%;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.seccion-2-imagen {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    text-align: center;
+}
+
+.seccion-2-imagen img {
+    max-width: 100%;
+    height: auto;
+    width: 200%;
+
+}
+
+.seccion-3 {
+    background-color: #F5CB00;
+    height: 100vh;
+    padding: 0 6.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seccion-3-texto {
+    max-width: 700px;
+}
+
+.seccion-3-titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 100%;
+    font-size: 8rem;
+}
+
+.seccion-3-parrafo {
+    font-size: 1.3rem;
+    max-width: 400px;
+    margin: 5% 0;
+}
+
+.seccion-3-boton {
+    border: none;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 2% 7%;
+}
+
+.seccion-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 6.5%;
+}
+
+.seccion-4-tarjeta {
+    display: flex;
+}
+
+.tarjeta-texto {
+    background-color: #E6E6E6;
+    width: 50%;
+}
+
+.tarjeta-titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 6.5rem;
+    font-weight: lighter;
+    color: #F5CB00;
+}
+
+.tarejeta-parrafo {
+    font-size: 1.3rem;
+    max-width: 400px;
+}
+
+.tarjeta-boton {
+    border: none;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 2% 7%;
+}
+
+.seccion-5 {
+    background-color: black;
+    height: 120vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+
+.seccion-5-titulo {
+    color: #F5CB00;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: lighter;
+    line-height: 0;
+}
+
+.seccion-5-parrafo {
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    max-width: 770px;
+}
+
+.seccion-5 img{
+    width: 60%;
+}
+.seccion-5-boton{
+       background-color: #F5CB00;
+    color: black;
+    border: none;
+    font-size: 1.3rem;
+    padding: 1% 3%;
+    font-weight: bold;
+}
+.seccion-6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6.5%;
+    height: 120vh;
+}
+.seccion-6-titulo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 6.5rem;
+     max-width: 600px;
+     line-height: 100px;
+}
+.seccion-6-parrafo{
+    font-size: 1.3rem;
+    max-width: 550px;
+    margin: 8% 0;
+}
+.seccion-6-boton{
+    background-color: #F5CB00;
+    color: black;
+    border: none;
+    font-size: 1.3rem;
+    padding: 2% 8%;
+    font-weight: bold;
+}
+.seccion-6-imagen img{
+    width: 300%;
+}
+
+
+.seccion-7{
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6.5%;
+    height: 120vh;
+}
+.seccion-7-titulo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 6.5rem;
+     max-width: 600px;
+     line-height: 100px;
+}
+.seccion-7-parrafo{
+    font-size: 1.3rem;
+    max-width: 550px;
+    margin: 8% 0;
+}
+.seccion-7-boton{
+    background-color: #F5CB00;
+    color: black;
+    border: none;
+    font-size: 1.3rem;
+    padding: 2% 8%;
+    font-weight: bold;
+}
+.seccion-7-imagen img{
+    width: 300%;
+}
+.seccion-9 {
+    background-color: #F5CB00;
+    height: 106vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    gap: 40px; 
+}
+
+.seccion-9-titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.seccion-9-parrafo {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.seccion-9 img{
+    width:79.5%;
+}
+.seccion-9-boton{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    padding: 0.5% 2%;
+}
+footer {
+    background-color: black;
+}
+
+.footer-parte-1 {
+    padding: 0% 5%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-parte-1-1 {
+    display: block;
+    text-align: left;
+}
+
+.footer-parte-1-1 img {
+    width: 150px;
+}
+
+.footer-parte-1-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.parte-2-enlaces-1 a {
+    color: #F5CB00;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.footer-hr {
+    color: white;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.parte-3 {
+    color: #F5CB00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 20vh;
+    font-size: 1.3rem;
+}
+
+.parte-3 i {
+    color: #F5CB00;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
