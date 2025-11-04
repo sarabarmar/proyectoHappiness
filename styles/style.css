@@ -13,13 +13,13 @@ nav {
 }
 
 .nav-logo img {
-    width: 200%;
+    width: 5vw;
 }
 
 .nav-enlaces a {
     color: black;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-left: 50px;
     font-weight: bold;
 }
@@ -27,13 +27,13 @@ nav {
 .seccion-1 {
     display: flex;
     align-items: center;
-    gap: 20%;
+    gap: 10%;
     padding: 0 6.5%;
     height: 89vh;
 }
 
 .seccion-1-imagen img {
-    width: 150%;
+    width: 150vw;
 }
 
 .seccion-1-texto {
@@ -55,7 +55,7 @@ nav {
 .seccion-1-boton {
     border: none;
     background: #F5CB00;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 1.3rem;
     padding: 2% 7%;
 }
@@ -112,23 +112,22 @@ nav {
 }
 
 .seccion-2-imagen img {
-    max-width: 100%;
-    height: auto;
-    width: 200%;
+    width: 15vw;
 
 }
 
 .seccion-3 {
     background-color: #F5CB00;
-    height: 100vh;
+    min-height: 85vh;
     padding: 0 6.5%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    gap: 30px;
 }
 
 .seccion-3-texto {
-    max-width: 700px;
+    max-width: 40%;
 }
 
 .seccion-3-titulo {
@@ -136,12 +135,14 @@ nav {
     font-weight: lighter;
     line-height: 100%;
     font-size: 8rem;
+    margin: 0 0 20px 0;
+    color: black;
 }
 
 .seccion-3-parrafo {
     font-size: 1.3rem;
     max-width: 400px;
-    margin: 5% 0;
+    margin: 0 0 30px 0;
 }
 
 .seccion-3-boton {
@@ -150,24 +151,39 @@ nav {
     color: white;
     font-weight: bold;
     font-size: 1.3rem;
-    padding: 2% 7%;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+
+.seccion-3-imagen img {
+    width: 100%;
+    height: auto;
+
 }
 
 .seccion-4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
     padding: 0 6.5%;
 }
 
 .seccion-4-tarjeta {
     display: flex;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.15);
 }
 
 .tarjeta-texto {
     background-color: #E6E6E6;
-    width: 50%;
+    width: 60%;
+    padding: 2% 4%;
+
+}
+
+.tarjeta-imagen img {
+    width: 55vw;
 }
 
 .tarjeta-titulo {
@@ -179,7 +195,8 @@ nav {
 
 .tarejeta-parrafo {
     font-size: 1.3rem;
-    max-width: 400px;
+    max-width: 440px;
+    margin-bottom: 6%;
 }
 
 .tarjeta-boton {
@@ -189,6 +206,12 @@ nav {
     font-weight: bold;
     font-size: 1.3rem;
     padding: 2% 7%;
+}
+
+.tarjeta-imagen-diagrama {
+    margin-top: 5%;
+    margin-left: 45%;
+    width: 50%;
 }
 
 .seccion-5 {
@@ -218,37 +241,42 @@ nav {
     max-width: 770px;
 }
 
-.seccion-5 img{
+.seccion-5 img {
     width: 60%;
 }
-.seccion-5-boton{
-       background-color: #F5CB00;
+
+.seccion-5-boton {
+    background-color: #F5CB00;
     color: black;
     border: none;
     font-size: 1.3rem;
     padding: 1% 3%;
     font-weight: bold;
 }
-.seccion-6{
+
+.seccion-6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 6.5%;
     height: 120vh;
 }
-.seccion-6-titulo{
+
+.seccion-6-titulo {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: lighter;
     font-size: 6.5rem;
-     max-width: 600px;
-     line-height: 100px;
+    max-width: 600px;
+    line-height: 100px;
 }
-.seccion-6-parrafo{
+
+.seccion-6-parrafo {
     font-size: 1.3rem;
     max-width: 550px;
     margin: 8% 0;
 }
-.seccion-6-boton{
+
+.seccion-6-boton {
     background-color: #F5CB00;
     color: black;
     border: none;
@@ -256,12 +284,13 @@ nav {
     padding: 2% 8%;
     font-weight: bold;
 }
-.seccion-6-imagen img{
+
+.seccion-6-imagen img {
     width: 300%;
 }
 
 
-.seccion-7{
+.seccion-7 {
     background-color: #E6E6E6;
     display: flex;
     justify-content: space-between;
@@ -269,19 +298,22 @@ nav {
     padding: 0 6.5%;
     height: 120vh;
 }
-.seccion-7-titulo{
+
+.seccion-7-titulo {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: lighter;
     font-size: 6.5rem;
-     max-width: 600px;
-     line-height: 100px;
+    max-width: 600px;
+    line-height: 100px;
 }
-.seccion-7-parrafo{
+
+.seccion-7-parrafo {
     font-size: 1.3rem;
     max-width: 550px;
     margin: 8% 0;
 }
-.seccion-7-boton{
+
+.seccion-7-boton {
     background-color: #F5CB00;
     color: black;
     border: none;
@@ -289,17 +321,89 @@ nav {
     padding: 2% 8%;
     font-weight: bold;
 }
-.seccion-7-imagen img{
+
+.seccion-7-imagen img {
     width: 300%;
 }
+
+.seccion-8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120vh;
+    padding: 0 10.5%;
+}
+
+.seccion-8-formulario {
+    background-color: #000;
+    color: white;
+    padding: 5%;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.fila {
+    display: flex;
+    gap: 20px;
+}
+
+.campo {
+    flex: 1;
+}
+
+.texto-final {
+    font-size: 0.9rem;
+    color: white;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.seccion-8-titulo {
+    color: #F5CB00;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
+    font-weight: lighter;
+    max-width: 350px;
+}
+
+.seccion-8-parrafo {
+    font-size: 1.5rem;
+    max-width: 550px;
+    margin-bottom: 10%;
+}
+
+.seccion-8-boton {
+    background-color: #000000;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    padding: 2% 8%;
+    font-weight: bold;
+}
+
 .seccion-9 {
     background-color: #F5CB00;
     height: 106vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
-    gap: 40px; 
+    align-items: center;
+    gap: 40px;
 }
 
 .seccion-9-titulo {
@@ -314,16 +418,18 @@ nav {
     font-size: 1.3rem;
 }
 
-.seccion-9 img{
-    width:79.5%;
+.seccion-9 img {
+    width: 79.5%;
 }
-.seccion-9-boton{
+
+.seccion-9-boton {
     background-color: black;
     color: white;
     border: none;
     font-size: 1.3rem;
     padding: 0.5% 2%;
 }
+
 footer {
     background-color: black;
 }
@@ -386,4 +492,143 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+@media (max-width : 1279px) {
+    .nav-logo img {
+        width: 10vw;
+    }
+
+    .seccion-1 {
+        flex-direction: column;
+        gap: 5%;
+        height: 105vh;
+        justify-content: center;
+    }
+
+    .seccion-1-imagen img {
+        width: 100vw;
+    }
+
+    .seccion-1-texto {
+        text-align: center;
+    }
+
+    .seccion-2 {
+        height: 40vh;
+
+    }
+
+    .seccion-2-imagen {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .seccion-2-imagen img {
+        width: 15vw;
+
+    }
+
+    .seccion-3 {
+        min-height: 105vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .seccion-3-texto {
+        max-width: 70%;
+        text-align: center;
+    }
+
+
+    .seccion-3-parrafo {
+        max-width: 100%;
+    }
+
+    .seccion-4 {
+        flex-direction: column;
+        height: 60vh;
+    }
+
+    .tarjeta-imagen img {
+        width: 50vw;
+    }
+
+    .tarjeta-titulo {
+        font-size: 4rem;
+    }
+
+    .tarejeta-parrafo {
+        font-size: 1.1rem;
+    }
+
+    .tarjeta-boton {
+        font-size: 1.1rem;
+    }
+
+    .tarjeta-imagen-diagrama {
+        margin-top: 2%;
+        margin-left: 70%;
+        width: 30%;
+    }
+
+    .seccion-5 {
+        height: 60vh;
+    }
+
+    .seccion-6 {
+        flex-direction: column;
+        justify-content: space-around;
+        ;
+        height: 100vh;
+    }
+
+    .seccion-6-texto {
+        text-align: center;
+    }
+
+    .seccion-6-titulo {
+        line-height: 50px;
+    }
+
+    .seccion-7 {
+        flex-direction: column;
+        justify-content: space-around;
+        ;
+        height: 120vh;
+    }
+
+    .seccion-7-texto {
+        text-align: center;
+    }
+
+    .seccion-7-titulo {
+        line-height: 100px;
+    }
+
+    .seccion-8 {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 105vh;
+        ;
+    }
+
+    .seccion-8-texto {
+        text-align: center;
+    }
+
+    .seccion-8-titulo {
+        max-width: 100%;
+    }
+    .seccion-9{
+        height: 60vh;
+    }
+    .footer-parte-1{
+        height: 50vh;
+    }
+    .parte-3{
+        height: 10vh;
+    }
+    
 }
