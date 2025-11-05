@@ -921,3 +921,8 @@ img {
     }
 
 }
+@media (max-width : 480px) {
+    .seccion-8{
+        height: 170vh;
+    }
+}
