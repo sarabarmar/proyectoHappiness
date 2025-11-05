@@ -621,14 +621,260 @@ img {
     .seccion-8-titulo {
         max-width: 100%;
     }
-    .seccion-9{
+
+    .seccion-9 {
         height: 60vh;
     }
-    .footer-parte-1{
+
+    .footer-parte-1 {
         height: 50vh;
     }
-    .parte-3{
+
+    .parte-3 {
         height: 10vh;
     }
-    
+
+}
+
+@media (max-width : 920px) {
+    .seccion-1 {
+        height: 130vh;
+    }
+
+    .seccion-1-imagen img {
+        width: 90vw;
+    }
+
+    .seccion-2 {
+        height: 50vh;
+
+    }
+
+    .seccion-3 {
+        min-height: 130vh;
+    }
+
+    .seccion-3-texto {
+        max-width: 100%;
+    }
+
+    .seccion-4 {
+        height: 153vh;
+    }
+
+    .seccion-4-tarjeta {
+        flex-direction: column;
+    }
+
+    .tarjeta-imagen img {
+        width: 80vw;
+    }
+
+    .tarjeta-texto {
+        width: 80vw;
+    }
+
+    .tarjeta-titulo {
+        font-size: 6rem;
+    }
+
+
+    .seccion-5 {
+        height: 85vh;
+    }
+
+    .seccion-5 img {
+        width: 90vw;
+    }
+
+    .seccion-6 {
+        height: 135vh;
+    }
+
+    .seccion-7 {
+        height: 155vh;
+    }
+
+    .seccion-7-texto {
+        text-align: center;
+    }
+
+    .seccion-7-titulo {
+        line-height: 100px;
+    }
+
+    .seccion-8 {
+        height: 150vh;
+    }
+
+    .seccion-9 {
+        height: 75vh;
+    }
+
+    .footer-parte-1 {
+        height: 50vh;
+    }
+
+    .parte-3 {
+        height: 10vh;
+    }
+
+}
+
+@media (max-width : 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-logo img {
+        width: 15vw;
+    }
+
+    .nav-enlaces a {
+        padding-left: 0px;
+        font-size: 1rem;
+    }
+
+    .nav-logo img {
+        width: 10vw;
+    }
+
+    .seccion-1 {
+        height: 90vh;
+    }
+
+    .seccion-1-imagen img {
+        width: 100vw;
+    }
+
+    .seccion-1-texto {
+        text-align: center;
+    }
+.seccion-1-titulo{
+    font-size: 5rem;
+}
+.seccion-1-parrafo{
+    font-size: 1rem;
+}
+
+    .seccion-2 {
+        height: 40vh;
+
+    }
+
+    .seccion-2-imagen {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .seccion-2-imagen img {
+        width: 15vw;
+
+    }
+
+    .seccion-3 {
+        min-height: 105vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .seccion-3-texto {
+        max-width: 70%;
+        text-align: center;
+    }
+
+
+    .seccion-3-parrafo {
+        max-width: 100%;
+    }
+
+    .seccion-4 {
+        flex-direction: column;
+        height: 60vh;
+    }
+
+    .tarjeta-imagen img {
+        width: 50vw;
+    }
+
+    .tarjeta-titulo {
+        font-size: 4rem;
+    }
+
+    .tarejeta-parrafo {
+        font-size: 1.1rem;
+    }
+
+    .tarjeta-boton {
+        font-size: 1.1rem;
+    }
+
+    .tarjeta-imagen-diagrama {
+        margin-top: 2%;
+        margin-left: 70%;
+        width: 30%;
+    }
+
+    .seccion-5 {
+        height: 60vh;
+    }
+
+    .seccion-6 {
+        flex-direction: column;
+        justify-content: space-around;
+        ;
+        height: 100vh;
+    }
+
+    .seccion-6-texto {
+        text-align: center;
+    }
+
+    .seccion-6-titulo {
+        line-height: 50px;
+    }
+
+    .seccion-7 {
+        flex-direction: column;
+        justify-content: space-around;
+        ;
+        height: 120vh;
+    }
+
+    .seccion-7-texto {
+        text-align: center;
+    }
+
+    .seccion-7-titulo {
+        line-height: 100px;
+    }
+
+    .seccion-8 {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 105vh;
+        ;
+    }
+
+    .seccion-8-texto {
+        text-align: center;
+    }
+
+    .seccion-8-titulo {
+        max-width: 100%;
+    }
+
+    .seccion-9 {
+        height: 60vh;
+    }
+
+    .footer-parte-1 {
+        height: 50vh;
+    }
+
+    .parte-3 {
+        height: 10vh;
+    }
+
 }
